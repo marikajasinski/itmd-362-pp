@@ -14,7 +14,21 @@ body {
 
 
 /* ===== LAYOUT STYLES ===== */
+input {
+  width: 100%;
+  padding: .5em 1em;
+  margin: .5em 0;
+  box-sizing: border-box;
+}
 
+input[type=text] {
+    background-color: black;
+    color: white;
+}
+
+input[type=text]:focus {
+    background-color: lightblue;
+}
 /* ===== MODULAR STYLES ===== */
 
 /* ===== STATE STYLES ===== */
