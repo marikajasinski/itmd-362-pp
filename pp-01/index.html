@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" class="nojs">
+<html lang="en">
 <head>
   <title>Production Problem 01</title>
   <meta charset="utf-8" />
@@ -8,25 +8,26 @@
 </head>
 <body>
   <main>
+    <form action="javascript:alert( 'success!' );">
     <form name="myForm" action="#null" onsubmit="return valiateForm()"method="post">
       <ol>
 
         <label for="name">Name:</label>
-        <input type="text" id="name" name="username" />
+        <input type="text" id="name" name="username" /> <br>
 
         <label for="mail">E-mail:</label>
-        <input placeholder="email@mysitesucks.com" type="email" id="mail" name="user_mail" />
+        <input placeholder="email@mysitesucks.com" type="text" id="mail" name="user_mail" /><br>
 
         <label for="phone">Phone Number:</label>
-        <input type="tel" id="phone" name="phone" />
+        <input type="text" id="phone" name="phone" /><br>
 
         <label for="bday">Your Birthday:</label>
-        <input type="date" id="bday" name="bday" />
+        <input type="text" id="bday" name="bday" /><br>
 
         <label for="animal">Favorite Animal:</label>
-        <input type="text" id="animal" name="animal" />
+        <input type="text" id="animal" name="animal" /><br>
 
-          <button type="submit" value="Submit">Send your message</button>
+          <button type="submit" value="Submit">Send your message</button><br>
     </ol>
 
     </form>

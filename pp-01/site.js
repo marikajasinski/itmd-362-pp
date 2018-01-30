@@ -5,3 +5,8 @@ function validateForm() {
         return false;
     }
 }
+$( "form" ).submit(function( event ) {
+  if ( $( "input:first" ).val() === "correct" ) {
+    $( "span" ).text( "Validated..." ).show();
+    return;
+  }
