@@ -7,8 +7,9 @@
   <link rel="stylesheet" media="screen" href="screen.css" />
 </head>
 <body>
-  <main>  
-    <form action="#null" method="get">
+  <main>
+    <form name="myForm" action="#null" onsubmit="return valiateForm()"
+    method="post">
       <ol>
 
         <label for="name">Name:</label>
@@ -26,7 +27,7 @@
         <label for="animal">Favorite Animal:</label>
         <input type="text" id="animal" name="animal" />
 
-          <button type="submit">Send your message</button>
+          <button type="submit" value="Submit">Send your message</button>
     </ol>
 
     </form>
